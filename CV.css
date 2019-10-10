@@ -1,0 +1,103 @@
+html 
+{ 
+  scroll-behavior: smooth; 
+} 
+
+img
+{
+	 
+}
+.photo
+{
+	margin-left:600px;
+ 	margin-top:100px;
+ 	overflow:hidden;
+    -webkit-border-radius:300px;
+    -moz-border-radius:300px;
+    border-radius:300px;
+    width:300px;
+    height:300px;
+    border: 10px white solid;
+}
+
+.photo:hover
+{
+    animation: animation 5s;
+}
+
+@keyframes animation {
+
+    50% {
+        transform: translateX(150px) rotate(360deg);
+    }
+    100% {
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+
+li a:hover{
+  background-color: #A2C6F9;
+}
+
+.active {
+  background-color: black;
+ 	color: white; 	
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0px -10px;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+body { 
+	    background: #A2C6F9;
+		font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+h1
+{
+	margin-left:450px;
+  margin-top:100px;
+  font-size: 60px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+h2
+{
+  margin-left:475px;
+  margin-top:120px;
+  padding-top: 80px;
+  font-size: 60px;
+  font-family: Brush Script MT, Brush Script Std, cursive,serif;
+
+}
+
+h3
+{
+  margin-left:600px;
+  margin-top:600px;
+  padding-top: 80px;
+  font-size: 60px;
+  font-family: Brush Script MT, Brush Script Std, cursive,serif;
+}
+
