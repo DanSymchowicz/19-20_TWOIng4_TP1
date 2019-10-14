@@ -101,3 +101,58 @@ h3
   font-family: Brush Script MT, Brush Script Std, cursive,serif;
 }
 
+h4
+{
+
+}
+
+.expg
+{
+  float: left;
+  width: 45%;
+  text-align: center;
+}
+
+.expd
+{
+  float: right;
+  width: 45%;
+  text-align: center;
+}
+
+
+.rond {
+ width:10px;
+ height:500px;
+ border-radius:50%;
+ background:white;
+ margin:10px auto;
+}
+.form{
+    background: #ffffff;
+    border: 9px solid #f2f2f2;
+    margin: auto;
+    padding: 50px 30px 50px 30px;
+    width: 300px;
+  }
+  td{
+    margin-bottom: 15px;
+  }
+  form input{
+    padding: 10px;
+    background-color: #A2C6F9;
+    color: white; 
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 2px;
+  }
+  form button{
+    padding: 10px;
+    background-color: #A2C6F9;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 2px;
+  }
