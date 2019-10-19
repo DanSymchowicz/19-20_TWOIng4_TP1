@@ -20,6 +20,16 @@ img
     border: 10px white solid;
 }
 
+.video
+{
+  margin-left:400px;
+  margin-top:100px;
+  width:600px;
+  height:300px;
+  margin-bottom: 150px;
+
+}
+
 .photo:hover
 {
     animation: animation 5s;
@@ -76,7 +86,7 @@ li a {
 
 h1
 {
-	margin-left:450px;
+	margin-left:400px;
   margin-top:100px;
   font-size: 60px;
   font-family: Brush Script MT, Brush Script Std, cursive;
@@ -95,16 +105,11 @@ h2
 h3
 {
   margin-left:600px;
-  margin-top:600px;
   padding-top: 80px;
   font-size: 60px;
   font-family: Brush Script MT, Brush Script Std, cursive,serif;
 }
 
-h4
-{
-
-}
 
 .expg
 {
@@ -132,6 +137,7 @@ h4
     background: #ffffff;
     border: 9px solid #f2f2f2;
     margin: auto;
+    margin-bottom: 100px;
     padding: 50px 30px 50px 30px;
     width: 300px;
   }
@@ -139,6 +145,16 @@ h4
     margin-bottom: 15px;
   }
   form input{
+    padding: 10px;
+    background-color: #A2C6F9;
+    color: white; 
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 2px;
+  }
+  form textarea{
     padding: 10px;
     background-color: #A2C6F9;
     color: white; 
